@@ -1,0 +1,33 @@
+Task 3 : Cat commands
+1. touch umuzi.txt
+   touch recruit.txt
+   touch cohort.txt
+2. nano umuzi.txt
+   nano recruit.txt
+   nano cohort.txt
+3. cat umuzi.txt recruit.txt cohort.txt
+4. cat umuzi.txt recruit.txt cohort.txt > summary.txt
+5. cat >> summary.txt (Enter then Control d)
+
+Task 4 : The locate command
+1. locate umuzi.txt
+2. locate umuzi.txt > search_result.txt
+
+Task 5 The locate command cont..
+1.mkdir mydocument
+ cd mydocument
+ touch pad.txt
+2. cd Desktop
+   mkdir work
+3.cp /Desktop/mydocument/pad.txt pad_copy.txt  
+4. locate updatedb
+5. cd ..
+6. locate pad_copy.txt
+
+Task 6 Find commands
+1. find . -type f -iname *.pdf
+2. find . -type f -iname *.pdf > work
+3. find . -mtime -1 -print
+
+    
+
